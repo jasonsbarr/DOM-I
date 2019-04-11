@@ -125,13 +125,13 @@ copyright.textContent = siteContent.footer.copyright;
  */
 navLinks.forEach(link => link.style.color = 'green');
 const home = document.createElement('a');
-home.src = '#';
+home.href = '#';
 home.textContent = 'Home';
 home.style.color = 'green';
 nav.prepend(home);
 
 const design = document.createElement('a');
-design.src = '#';
+design.href = '#';
 design.textContent = 'Design'
 design.style.color = 'green';
 nav.appendChild(design);
